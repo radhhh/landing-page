@@ -70,12 +70,13 @@ p, h1, h2, h3{
 
 .main-page-box{
     background-color: #1f2937;
-    height: 500px;
+    padding: 150px 0px 150px;
 }
 
 .main-page{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 50px;
 }
 
@@ -84,6 +85,7 @@ p, h1, h2, h3{
     justify-content: space-between;
     flex-direction: column;
     max-width: 500px;
+    min-height: 250px;
     /* flex: auto; */
 }
 
@@ -109,7 +111,6 @@ p, h1, h2, h3{
     height: 250px;
     max-width: 600px;
     flex: auto;
-    object-fit: cover;
 }
 
 .random-info-box{
@@ -118,7 +119,7 @@ p, h1, h2, h3{
 
 .random-info{
     text-align: center;
-    height: 400px;
+    min-height: 400px;
 }
 
 .tile-box{
@@ -140,4 +141,28 @@ p, h1, h2, h3{
     border-radius: 20px;
     border-style: solid;
     margin-bottom: 12px;
+}
+
+.quotes-box{
+    padding: 150px 0px 150px;
+    background-color: #E5E7EB;
+}
+
+.quotes{
+    max-width: 1000px;
+}
+
+.quotes .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quotes .origin{
+    margin: 16px 0px 0px auto;
+    max-width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
 }
