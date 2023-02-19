@@ -24,10 +24,15 @@ body{
     flex-direction: column;
 }
 
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content{
     padding: 0px 16px;
-    max-width: 1600px;
-    display: flex;
+    max-width: 1200px;
     flex: auto;
 }
 
@@ -42,6 +47,7 @@ body{
 
 .header{
     color: white;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -56,4 +62,48 @@ body{
 .header a{
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.main-page-box{
+    background-color: #1f2937;
+    height: 500px;
+}
+
+.main-page{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.main-text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.main-text h1{
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.main-text p{
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-text button{
+    width: 150px;
+    padding: 10px; 
+    border-radius: 10px;   
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.main-page img{
+    height: 250px;
+    width: 900px;
+    flex: auto;
+    object-fit: cover;
 }
