@@ -70,7 +70,7 @@ p, h1, h2, h3{
 
 .main-page-box{
     background-color: #1f2937;
-    padding: 150px 0px 150px;
+    padding: 150px 0px;
 }
 
 .main-page{
@@ -165,4 +165,35 @@ p, h1, h2, h3{
     font-size: 24px;
     font-weight: 600;
     color: #1F2937;
+}
+
+.ad-box{
+    padding: 100px 0px;
+}
+
+.ad{
+    max-width: 1200px;
+    padding: 40px 0px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+}
+
+.ad .inner-content{
+    max-width: 1000px;
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.ad button{
+    height: 45px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    border: white solid 3px;
+    border-radius: 10px;
+    background-color: #3882F6;    
 }
