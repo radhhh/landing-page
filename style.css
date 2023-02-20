@@ -126,7 +126,6 @@ p, h1, h2, h3{
     display: flex;
     margin: 48px auto;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 60px;I
 }
 
@@ -196,4 +195,10 @@ p, h1, h2, h3{
     border: white solid 3px;
     border-radius: 10px;
     background-color: #3882F6;    
+}
+
+.content-box.footer{
+    min-height: 100px;
+    color: white;
+    background-color: #1F2937;
 }
